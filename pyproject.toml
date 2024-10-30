@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "arcade_example"
+version = "0.1.0"
+description = "A project to test Arcade AI"
+authors = ["Lautaro Gesuelli <lautaro@pampa.ai>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "<3.13,>=3.10"
+
+[tool.poetry.dev-dependencies]
+openai = "^1.52.2"
+arcade-ai = "^0.0.15"
+arcadepy = "^0.1.2"
+langchain-arcade = "^0.1.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
