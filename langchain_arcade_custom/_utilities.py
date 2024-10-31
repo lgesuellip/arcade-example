@@ -176,7 +176,6 @@ def wrap_arcade_tool(
         args_schema=args_schema,
         langgraph=langgraph,
     )
-    from models import ArcadeTool
     # Create the StructuredTool instance
     return StructuredTool.from_function(
         func=action_func,
